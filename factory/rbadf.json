@@ -1,0 +1,9 @@
+{
+	"name": "rbadf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e651e2a6-8bde-4cae-86f9-e4593ed46d2c",
+		"tenantId": "d3bd31de-070e-4e3c-b25c-0c2f1b1527a4"
+	}
+}
