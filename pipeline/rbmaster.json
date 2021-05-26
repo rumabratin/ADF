@@ -1,6 +1,26 @@
 {
 	"name": "rbmaster",
 	"properties": {
+		"activities": [
+			{
+				"name": "Switch1",
+				"type": "Switch",
+				"dependsOn": [],
+				"userProperties": [
+					{
+						"name": "pipelinename",
+						"value": "blob2blob"
+					}
+				],
+				"typeProperties": {
+					"on": {
+						"value": "pipelinename",
+						"type": "Expression"
+					},
+					"cases": []
+				}
+			}
+		],
 		"folder": {
 			"name": "BratinDemo"
 		},
