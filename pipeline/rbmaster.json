@@ -13,10 +13,6 @@
 					}
 				],
 				"typeProperties": {
-					"on": {
-						"value": "pipelinename",
-						"type": "Expression"
-					},
 					"cases": [],
 					"defaultActivities": [
 						{
