@@ -1,5 +1,5 @@
 {
-	"name": "blob2-blob1",
+	"name": "sourceblob-stagingblob",
 	"properties": {
 		"folder": {
 			"name": "BratinDemo"
