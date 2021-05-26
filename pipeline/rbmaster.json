@@ -13,7 +13,26 @@
 					}
 				],
 				"typeProperties": {
-					"cases": []
+					"cases": [
+						{
+							"value": "Case1",
+							"activities": [
+								{
+									"name": "sourceblob-stagingblob",
+									"type": "ExecutePipeline",
+									"dependsOn": [],
+									"userProperties": [],
+									"typeProperties": {
+										"pipeline": {
+											"referenceName": "sourceblob-stagingblob",
+											"type": "PipelineReference"
+										},
+										"waitOnCompletion": true
+									}
+								}
+							]
+						}
+					]
 				}
 			}
 		],
