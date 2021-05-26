@@ -202,6 +202,16 @@
 				}
 			}
 		],
+		"parameters": {
+			"message": {
+				"type": "String",
+				"defaultValue": "started"
+			},
+			"Comment": {
+				"type": "string",
+				"defaultValue": "Started"
+			}
+		},
 		"folder": {
 			"name": "BratinDemo"
 		},
