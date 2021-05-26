@@ -14,10 +14,29 @@
 				],
 				"typeProperties": {
 					"on": {
-						"value": "\"Expression\":\"Case1\"",
+						"value": "\"Expression\":\"Default\"",
 						"type": "Expression"
 					},
-					"cases": [],
+					"cases": [
+						{
+							"value": "Case1",
+							"activities": [
+								{
+									"name": "sourceblob-stagingblob_copy1",
+									"type": "ExecutePipeline",
+									"dependsOn": [],
+									"userProperties": [],
+									"typeProperties": {
+										"pipeline": {
+											"referenceName": "sourceblob-stagingblob_copy1",
+											"type": "PipelineReference"
+										},
+										"waitOnCompletion": true
+									}
+								}
+							]
+						}
+					],
 					"defaultActivities": [
 						{
 							"name": "sourceblob-stagingblob",
