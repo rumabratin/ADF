@@ -17,11 +17,7 @@
 						"value": "\"Expression\":\"Case1\"",
 						"type": "Expression"
 					},
-					"cases": [
-						{
-							"value": "Case1"
-						}
-					],
+					"cases": [],
 					"defaultActivities": [
 						{
 							"name": "sourceblob-stagingblob",
