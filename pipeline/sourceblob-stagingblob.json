@@ -193,7 +193,8 @@
 					"functionName": "Function1",
 					"method": "POST",
 					"body": {
-						"Comment": "Started"
+						"value": "@pipeline().parameters.Comment",
+						"type": "Expression"
 					}
 				},
 				"linkedServiceName": {
